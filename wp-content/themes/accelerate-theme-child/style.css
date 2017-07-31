@@ -69,3 +69,30 @@ div.case-study-images img {
    border:1px solid #dddddd;
    
 }
+
+.featured-work h4 {
+    text-align: center;
+}
+
+.featured-work ul {
+	text-align: center;
+}
+
+.featured-work li {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.case-study-sidebar span {
+	font-size:10px;
+	font-weight: 700;
+	color: gray;
+}
+
+.excerpt {
+	padding-top: 20px;
+}
+
+#link a {
+	color: #45ac9d;
+}
