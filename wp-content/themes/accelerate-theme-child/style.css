@@ -96,3 +96,174 @@ div.case-study-images img {
 #link a {
 	color: #45ac9d;
 }
+
+.name {
+   font-size: 10px;
+   width: 250px;
+   display: inline-block;
+   margin-right: 15px;
+}
+
+.email {
+   font-size: 10px;
+   width: 250px;
+   display: inline-block;
+}
+
+.email {
+   font-size: 10px;
+}
+
+.emailelement {
+   width: 250px;
+}
+
+.message {
+    width: 515px;
+    font-size: 10px;
+    margin: auto;
+}
+
+.slug-contact-us {
+	text-align: center;
+}
+
+.slug-contact-us p {
+	font-size: 12px;
+	color: gray;
+	width: 515px;
+	margin: auto;
+	text-align: left;
+}
+
+.slug-contact-us h2 {
+	text-align:left;
+	width: 515px;
+	margin: 20px auto;
+}
+
+.slug-contact-us .submit-container.send {
+    width: 515px;
+    margin: auto;
+    text-align: right;
+}
+
+.sendelement {
+	float: right;
+	background-color: #45ac9d;
+	color: white;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.aboutpage {
+   height: 250px;
+   background: no-repeat url("img/taxi-photo.jpg");
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+   color: white;
+   margin: auto;
+   display: flex;
+   align-items: center;
+}
+
+.aboutpage p {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.ourservices {
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+
+.ourservices p {
+	color: gray;
+}
+
+
+.cubutton a {
+	border: 2px solid #45ac9d;
+	width: auto;
+	background: #45ac9d;
+	color: white;
+	padding: 10px 25px;
+	margin-left: 20px;
+}
+
+.content-strategy {
+    display: flex;
+}
+.content-strategy p {
+	width: 500px;
+	color: gray; 
+
+}
+
+.content-strategy img {
+    margin-right: 30px;
+}
+
+.influencer-mapping {
+	display: flex;
+}
+
+.influencer-mapping p {
+	width: 500px;
+	color: gray; 
+}
+
+.social-media {
+	display: flex;
+}
+
+.social-media p {
+	width: 500px;
+	color: gray; 
+}
+
+.social media img {
+	margin-right: 30px;
+}
+
+.design {
+	display: flex;
+}
+
+.design p {
+	width: 500px;
+	color: gray; 
+}
+
+
+.belowtext {
+	display: flex;
+	width: 700px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #C2C9CC;
+	border-top: 1px solid #C2C9CC;
+
+
+}
+
+body.error404 h1 {
+	color: black;
+}
+
+body.error404 #content {
+	display: flex;
+}
+
+.img404 {
+    margin-top: 150px;
+    margin-right: 70px;
+}
+
+.text404 {
+	margin-top: 150px;
+	text-align: center;
+}
