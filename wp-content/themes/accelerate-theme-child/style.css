@@ -168,6 +168,8 @@ div.case-study-images img {
    margin: auto;
    display: flex;
    align-items: center;
+   width: 100%;
+
 }
 
 .aboutpage p {
@@ -297,6 +299,7 @@ body.error404 #content {
 
 #menu-top-nav {
 	display: flex;
+	margin: 0;
 }
 
 #menu-top-nav li {
