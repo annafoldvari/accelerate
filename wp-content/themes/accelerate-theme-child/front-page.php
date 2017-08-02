@@ -47,21 +47,32 @@ get_header(); ?>
      </div>
 
 </section>
+<div class="widgetflex">
+<div>
+	<section class="recent-posts clearfix">
+   		<div class="site-content blogpart">
+     	<div class="blog-post">
+       		<h4>From the Blog</h4>
+			<?php query_posts('posts_per_page=1'); ?>
+  			<?php while ( have_posts() ) : the_post(); ?>
+            	<h2><?php the_title(); ?></h2>
+       			<?php the_excerpt(); ?> 
+       			<a class="read-more-link" href="<?php
+       			the_permalink(); ?>">Read More <span>&rsaquo;</span></a>
+  			<?php endwhile; ?> 
+			<?php wp_reset_query(); ?>
+    	 </div>
+  		 </div>
+	</section>
+</div>
+<div class ="widgettwitter">
+	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+	<div id="secondary" class="widget-area" role="complementary">
+		<?php dynamic_sidebar( 'sidebar-2' ); ?>
 
-<section class="recent-posts clearfix">
-   <div class="site-content">
-     <div class="blog-post">
-       <h4>From the Blog</h4>
-<?php query_posts('posts_per_page=1'); ?>
-  <?php while ( have_posts() ) : the_post(); ?>
-            <h2><?php the_title(); ?></h2>
-       <?php the_excerpt(); ?> 
-       <a class="read-more-link" href="<?php
-       the_permalink(); ?>">Read More <span>&rsaquo;</span></a>
-  <?php endwhile; ?> 
-<?php wp_reset_query(); ?>
-     </div>
-   </div>
-</section>
+	</div>
+<?php endif; ?>
+</div>
+</div>
 
 <?php get_footer(); ?>

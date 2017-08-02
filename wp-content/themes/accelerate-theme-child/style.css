@@ -267,3 +267,38 @@ body.error404 #content {
 	margin-top: 150px;
 	text-align: center;
 }
+
+.widgetflex {
+   display: flex;
+   justify-content: center;
+}
+
+.blogpart {
+	width: 500px;
+}
+	
+.widgettwitter {
+	margin-top: 17px;
+	width: 400px;
+}
+
+.widget-title {
+	color: #a6a6a6;
+	font-size: 20px;
+	margin-bottom: 32px;
+}
+
+.mc4wp-form-fields input[type="submit"]{
+	background: #45ac9d;
+	color: white;
+	border: 1px solid #45ac9d;
+	padding: 10px 20px;
+}
+
+#menu-top-nav {
+	display: flex;
+}
+
+#menu-top-nav li {
+	margin-right: 20px;
+}
